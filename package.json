@@ -1,0 +1,34 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "Jakub Sznicer Homepage",
+  "license": "MIT",
+  "repository": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "typeface-lato": "0.0.75"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.1",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js --hot --color --open",
+    "build": "webpack --config webpack.prod.js"
+  }
+}

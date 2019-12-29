@@ -1,0 +1,13 @@
+@import "~normalize.css/normalize.css";
+@import "~typeface-lato/index.css";
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #05396bff;
+	background: #5adc94ff;
+	font-family: "Lato";
+}
+
+@import "top.scss";
